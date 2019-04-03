@@ -76,6 +76,5 @@ window.matchMedia('print').addListener(function(mql) {
   }
 });
 
-// resize and post-print adjustment triggers
+// resize adjustment trigger
 window.onresize = size_adjust;
-window.onafterprint = size_adjust;
