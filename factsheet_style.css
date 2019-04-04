@@ -4,16 +4,6 @@
     orphans: 2;
     widows: 2;
   }
-
-  table {
-    position: relative;
-    width: 100vw;
-    overflow: visible !important;
-  }
-  thead {
-    display: table-header-group;
-  }
-
 }
 table {
   position: relative;
@@ -26,9 +16,19 @@ thead {
 tr, td {
   vertical-align: top;
 }
+
+td.header > div {
+  width:100%;
+  height:100%;
+  overflow: hidden;
+}
+
+td.header {
+  height: 6vh;
+}
+
 #gridlogo {
-  /* height: 6vh; */
-  height: 10px;
+  height: 6vh;
   background-color: white;
   top:0;
   left:0;
