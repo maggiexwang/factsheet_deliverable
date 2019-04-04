@@ -32,6 +32,10 @@ tr.header {
   display: table-row-group;
 }
 
+td#details {
+  width: 60%;
+}
+
 #gridlogo {
   height: 6vh;
   background-color: white;
