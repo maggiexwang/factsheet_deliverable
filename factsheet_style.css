@@ -8,7 +8,7 @@
 table {
   position: relative;
   width: 100vw;
-  overflow: visible !important;
+  overflow: hidden;
   table-layout: fixed;
 }
 thead {
@@ -16,6 +16,7 @@ thead {
 }
 tr, td {
   vertical-align: top;
+  page-break-inside: avoid;
 }
 
 td.header > div {
