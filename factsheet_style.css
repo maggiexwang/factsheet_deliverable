@@ -4,6 +4,16 @@
     orphans: 2;
     widows: 2;
   }
+
+  table {
+    position: relative;
+    width: 100vw;
+    overflow: visible !important;
+  }
+  thead {
+    display: table-header-group;
+  }
+
 }
 table {
   position: relative;
