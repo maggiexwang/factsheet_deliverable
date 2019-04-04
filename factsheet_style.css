@@ -25,6 +25,11 @@ td.header > div {
 
 td.header {
   height: 6vh;
+  object-fit: scale-down;
+}
+td.header {
+  height: 6vh;
+  display: table-row-group;
 }
 
 #gridlogo {
