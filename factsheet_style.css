@@ -27,10 +27,13 @@ tr, td {
   vertical-align: top;
 }
 #gridlogo {
-  height: 6vh;
+  /* height: 6vh; */
+  height: 10px;
   background-color: white;
   top:0;
   left:0;
+  object-fit: scale-down;
+  overflow: hidden;
 }
 #gridlogo img {
   object-fit: scale-down;
