@@ -9,6 +9,7 @@ table {
   position: relative;
   width: 100vw;
   overflow: visible !important;
+  table-layout: fixed;
 }
 thead {
   display: table-header-group;
